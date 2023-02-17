@@ -1,0 +1,11 @@
+.cards__item {
+  text-align: center;
+  width: 240px;
+}
+.cards__item:first-child {
+  margin-right: 100px;
+}
+
+.cards__item:nth-last-child(even) {
+  margin-right: 100px;
+}

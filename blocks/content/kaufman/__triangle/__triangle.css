@@ -1,0 +1,17 @@
+@keyframes rotation {
+  from {
+    transform: rotate(-15deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.kaufman__triangle {
+  position: absolute;
+  right: -124px;
+  top: 0px;
+  z-index: -1;
+  height: 660px;
+  width: 636px;
+  animation: rotation 20s linear infinite;
+}

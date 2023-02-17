@@ -1,0 +1,16 @@
+.header {
+  position: relative;
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  /* parameters for the header section */
+}
+
+/* here we have two examples of selectors in order to remind you how to set styles for elements */
+/**.header__square-pic {
+  height: 568px;
+  width: 568px;
+}**/
